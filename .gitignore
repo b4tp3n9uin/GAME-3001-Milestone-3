@@ -1,0 +1,11 @@
+
+*.opendb
+*.obj
+*.log
+*.lastbuildstate
+SDLGameEngine-master/SDLGameEngine/Debug/SDLGameEngine.tlog/unsuccessfulbuild
+*.tlog
+*.exe
+*.ilk
+*.pdb
+*.idb
