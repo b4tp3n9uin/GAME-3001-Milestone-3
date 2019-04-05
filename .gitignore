@@ -1,4 +1,4 @@
-
+./Release
 *.opendb
 *.obj
 *.log
