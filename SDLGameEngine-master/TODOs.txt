@@ -1,0 +1,3 @@
+- Free component list from GameObject
+- Create managers for components
+- Make managers non static classes (have variables for them in Game)
