@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{ec8eb86f-5ce5-43a4-92fc-f0a4d74db8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files">
+      <UniqueIdentifier>{17beed24-2c1a-4062-b1d8-189e2ca5a3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files">
+      <UniqueIdentifier>{8e02f5c6-f857-4df1-8c0a-cf6697825f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\Core">
+      <UniqueIdentifier>{79525409-d3ff-4809-bfaf-37f7cf43e519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\Utils">
+      <UniqueIdentifier>{3557a979-55de-47b3-a763-685edeb15052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\Data">
+      <UniqueIdentifier>{255794bd-57ed-4673-813b-bf229cd12fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\Core\Components">
+      <UniqueIdentifier>{a3556bea-4a60-4426-a48f-9fe48c8cdd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\Core\Modules">
+      <UniqueIdentifier>{ae4c0c6c-9576-4733-a7a7-ea69144655d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\Core\Helpers">
+      <UniqueIdentifier>{08f614f1-3cbb-464f-9a1a-ac63c01b9258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files\Core">
+      <UniqueIdentifier>{cb33dd51-f5bf-41b9-8c99-f25527abfe7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files\Core\Components">
+      <UniqueIdentifier>{75506255-337b-4ea3-bba3-b469311f00ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files\Core\Modules">
+      <UniqueIdentifier>{29069eaf-13a3-4649-bbd7-9e4d0121e390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files\Core\Helpers">
+      <UniqueIdentifier>{f0da6a45-dbf8-4594-9dfd-8fbba648f422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files\Data">
+      <UniqueIdentifier>{cb005cf2-61ef-46fb-8e59-95400e25ce78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files\Utils">
+      <UniqueIdentifier>{a24b8458-c6fd-4a6d-b4c3-86f1f05c2f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files\Physics">
+      <UniqueIdentifier>{54436597-ad1e-444b-b8dd-4c8c43e9344d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\Physics">
+      <UniqueIdentifier>{935d3661-5c5a-4658-bcac-59d2000e2ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoProject">
+      <UniqueIdentifier>{869a071f-d526-4b43-a893-0faff35cb11c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Engine\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Engine\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Module.cpp">
+      <Filter>Engine\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviour.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Engine\Source Files\Core\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Source Files\Core\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Source Files\Core\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Engine\Source Files\Core\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Engine\Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Engine\Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Source Files\Core\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderModule.cpp">
+      <Filter>Engine\Source Files\Core\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Engine\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerdStorage.cpp">
+      <Filter>Engine\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactListener.cpp">
+      <Filter>Engine\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Engine\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEvent.cpp">
+      <Filter>Engine\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEventListener.cpp">
+      <Filter>Engine\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Engine\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Engine\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoGamePjct.cpp">
+      <Filter>DemoProject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1.cpp">
+      <Filter>DemoProject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerControls.cpp">
+      <Filter>DemoProject</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviour.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Engine\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringAgent.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastHit.cpp">
+      <Filter>Engine\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Pursue.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFollow.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoot.cpp">
+      <Filter>Engine\Source Files\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Engine\Source Files\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Engine\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Engine\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Engine\Header Files\Core\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Header Files\Core\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Engine\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.h">
+      <Filter>Engine\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Header Files\Core\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Engine\Header Files\Core\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Engine\Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Engine\Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Header Files\Core\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderModule.h">
+      <Filter>Engine\Header Files\Core\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Engine\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerdStorage.h">
+      <Filter>Engine\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Engine\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Engine\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformData.h">
+      <Filter>Engine\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactListener.h">
+      <Filter>Engine\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Engine\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEvent.h">
+      <Filter>Engine\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEventListener.h">
+      <Filter>Engine\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Engine\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastHit.h">
+      <Filter>Engine\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Engine\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoGamePjct.h">
+      <Filter>DemoProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1.h">
+      <Filter>DemoProject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControls.h">
+      <Filter>DemoProject</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviour.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Engine\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringAgent.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Pursue.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFollow.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoot.h">
+      <Filter>Engine\Header Files\Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Engine\Header Files\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
