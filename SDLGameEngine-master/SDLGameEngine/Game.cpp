@@ -255,6 +255,10 @@ GameObject* Game::Instantiate(GameObject* go, const Vector2& position, const flo
 
 void Game::Destroy(GameObject* go)
 {
+	if( find( objectsToDestroy.begin(), objectsToDestroy.end(), go ) != objectsToDestroy.end() )
+	{
+		return;
+	}
 	for (Transform* t : go->transform->children)
 	{
 		Destroy(t->gameObject);

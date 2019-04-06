@@ -79,9 +79,10 @@ void Scene1::Setup()
 
 		// Set AI graphics
 		//enemyGraphic->transform->SetParentRelative(enemy->transform);
-		//enemyGraphic->transform->SetAbsoluteScale(Vector2(0.5f, 0.5f));
-		//enemyGraphic->AddComponent(new SpriteRenderer("Assets/Polar_Bear.png"));
-		//enemyGraphic->AddComponent(new Enemy());
+		enemy->transform->SetAbsoluteScale(Vector2(0.5f, 0.5f));
+		enemy->AddComponent(new SpriteRenderer("Assets/Polar_Bear.png"));
+		
+		enemy->AddComponent(new Enemy());
 
 
 		// Initialize AI behavior

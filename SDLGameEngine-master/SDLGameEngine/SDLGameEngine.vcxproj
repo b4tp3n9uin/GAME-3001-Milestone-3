@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{443FB7E1-2D8B-4CF2-916A-DF29E2FD003F}</ProjectGuid>
     <RootNamespace>SDLGameEngine</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -83,11 +83,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Matth\Documents\GAME3001\GAME3001_Makepeace_Matthew_Proj_M2 %281%29\SDLGameEngine-master\SDLGameEngine-master\ExternalLibraries\SDL2\include;C:\Users\Matth\Documents\GAME3001\GAME3001_Makepeace_Matthew_Proj_M2 %281%29\SDLGameEngine-master\SDLGameEngine-master\ExternalLibraries\Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\ExternalLibraries\SDL2\include;$(SolutionDir)\ExternalLibraries\Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;Box2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\Matth\Documents\GAME3001\GAME3001_Makepeace_Matthew_Proj_M2 %281%29\SDLGameEngine-master\SDLGameEngine-master\ExternalLibraries\SDL2\lib\x86;C:\Users\Matth\Documents\GAME3001\GAME3001_Makepeace_Matthew_Proj_M2 %281%29\SDLGameEngine-master\SDLGameEngine-master\ExternalLibraries\Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\ExternalLibraries\SDL2\lib\x86;$(SolutionDir)\ExternalLibraries\Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -113,13 +113,13 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\abhis\OneDrive\Documents\GitHub\SDLGameEngine\SDLGameEngine\ExternalLibraries\SDL2\include;C:\Users\abhis\OneDrive\Documents\GitHub\SDLGameEngine\SDLGameEngine\ExternalLibraries\Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\ExternalLibraries\SDL2\include;$(SolutionDir)\ExternalLibraries\Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;Box2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\abhis\OneDrive\Documents\GitHub\SDLGameEngine\SDLGameEngine\ExternalLibraries\SDL2\lib\x86;C:\Users\abhis\OneDrive\Documents\GitHub\SDLGameEngine\SDLGameEngine\ExternalLibraries\Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\ExternalLibraries\SDL2\lib\x86;$(SolutionDir)\ExternalLibraries\Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>

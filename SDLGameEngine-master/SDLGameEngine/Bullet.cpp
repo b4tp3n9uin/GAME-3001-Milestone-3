@@ -40,7 +40,7 @@ void Bullet::Update() {
 
 void Bullet::OnTriggerEnter(Collider* col) {
 	if (col -> gameObject -> name == "Enemy") {
-		game -> Destroy(col -> gameObject);
-		game->Destroy(gameObject);
+		//game -> Destroy(col -> gameObject);
+		//game->Destroy(gameObject);
 	}
 }
